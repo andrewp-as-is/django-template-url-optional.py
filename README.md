@@ -15,6 +15,16 @@ $ [sudo] pip install django-template-url-optional
 ```
 
 #### Examples
+`settings.py`
+```python
+INSTALLED_APPS = [
+    ...
+    'django_template_url_optional',
+    ...
+]
+```
+
+
 ```html
 {% load url_optional %}
 
